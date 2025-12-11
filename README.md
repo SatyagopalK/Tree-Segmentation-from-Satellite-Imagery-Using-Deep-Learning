@@ -1,12 +1,12 @@
-#Tree Crown Segmentation from Multispectral Satellite Imagery
+Tree Crown Segmentation from Multispectral Satellite Imagery
 
-##ISRO–NRSC | Project Intern | 05 May 2025 – 30 September 2025
+ISRO–NRSC | Project Intern | 05 May 2025 – 30 September 2025
 
-###📌 Project Overview
+📌 Project Overview
 
 This project focuses on pixel-level tree crown mapping from multispectral LISS-4 satellite imagery as part of a wall-to-wall vegetation monitoring workflow. Tree areas are labeled as 1, and non-tree areas as 0, explicitly excluding crops and shrubs. A deep learning–based segmentation pipeline was developed to address fine-scale variability and limited training data.
 
-###📸 Dataset Preparation
+📸 Dataset Preparation
 Source Data
 
 Input imagery: LISS-4 multispectral scenes
@@ -35,7 +35,7 @@ Used in a stratified generator during training
 
 Dataset split into train / validation / test for robust evaluation.
 
-###🧠 Model Architecture & Training
+🧠 Model Architecture & Training
 Model Used
 
 MultiResUNet for high-resolution segmentation
@@ -64,7 +64,7 @@ Intersection over Union (IoU)
 
 F1 Score
 
-###📊 Error Analysis & Validation
+📊 Error Analysis & Validation
 
 Performed detailed evaluation on test chips, including:
 
@@ -88,7 +88,7 @@ Bias
 
 This analysis guided selection of the best models.
 
-###🏆 Key Results
+🏆 Key Results
 
 Top-performing model configurations:
 
@@ -108,7 +108,7 @@ Pixel resolution aggregated from 5 m → 100 m (~1 ha)
 
 Final VCF maps produced for large-scale vegetation assessment
 
-###🌱 Impact
+🌱 Impact
 
 The project demonstrates that combining:
 
